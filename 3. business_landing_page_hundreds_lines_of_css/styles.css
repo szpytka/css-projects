@@ -345,7 +345,7 @@ p {
 .partners-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
-  margin: var(--spacing-xl) 0;
+  margin: var(--spacing-lg) 0;
   column-gap: var(--spacing-md);
   row-gap: var(--spacing-lg);
 }
@@ -769,6 +769,10 @@ p {
   .hero .col-right {
     width: 40%;
   }
+  /* PARTNERS GRID */
+  .partners-grid {
+    margin: 0 0 var(--spacing-xl) 0;
+  }
 }
 
 /* CUSTOM BREAKPOINT 850px */
@@ -783,6 +787,7 @@ p {
     transform: translate(32px, -70px);
   }
   /* PARTNERS GRID */
+
   .partners-grid img {
     width: 100%;
     height: auto;
@@ -855,6 +860,7 @@ p {
     height: 450px;
     transform: translateX(32px);
   }
+
   /* UNIFIED PLATFORM */
   .unified-platform h2 {
     width: 100%;
@@ -926,6 +932,10 @@ p {
   }
   .hero .hero-phone-container {
     display: none;
+  }
+  /* PARTNERS GRID */
+  .partners-grid {
+    margin: var(--spacing-xl) 0;
   }
   /* WHY SWIPE */
   .why-swipe-section {
